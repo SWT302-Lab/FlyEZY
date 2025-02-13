@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Sans", sans-serif;
+}
+:root {
+  --flyezyMainColor: rgb(60, 110, 87);
+}
+#header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: var(--flyezyMainColor);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+#header-logo {
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+#header-logo img {
+  height: 65px;
+}
+
+#header-nav1 {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+#header-nav1 li {
+  padding: 23px 30px;
+  transition: background-color 0.3s ease;
+}
+
+#header-nav1 li:hover, .current-page {
+  background-color: white;
+}
+
+#header-nav1 li:hover a, .current-page a{
+  color: var(--flyezyMainColor)!important;
+}
+
+#header-nav1 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#header-nav2 {
+  padding: 15px 5px;
+  margin-right: 50px;
+}
+
+#header-nav2 button {
+  cursor: pointer;
+  padding: 9px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#login-button {
+  background: transparent;
+  color: #fff;
+  border: none;
+}
+
+#login-button:hover {
+  opacity: 0.8;
+}
+
+#register-button {
+  background: white;
+  border-radius: 99px;
+  border-color: white;
+  color: var(--flyezyMainColor);
+}
+
+#register-button:hover {
+  opacity: 0.8;
+}
+
+#header-account {
+  margin-right: 45px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  color: white;
+}
+#header-account img {
+  border-radius: 50%;
+  height: 35px;
+  object-fit: cover;
+  width: 35px;
+  border: 3px solid white;
+}
+
+#header-subnav {
+  list-style-type: none;
+  text-decoration: none;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+  padding: 8px 24px;
+  min-width: 174px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px !important;
+  margin-left: -125px;
+  margin-top: 6px;
+}
+
+#header-subnav li {
+  display: block;
+  padding: 9px 0;
+}
+
+#header-subnav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#header-subnav li a:hover {
+  opacity: 0.7;
+}

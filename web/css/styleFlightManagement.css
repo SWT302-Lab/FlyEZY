@@ -1,0 +1,51 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 30, 2024, 7:29:23 PM
+    Author     : Admin
+*/
+
+.flight-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.flight-form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.flight-form strong {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.flight-select {
+    min-width: 270px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.flight-select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.flight-form .btn-danger:hover {
+    background-color: #c82333;
+}

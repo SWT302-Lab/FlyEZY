@@ -1,0 +1,194 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 6, 2024, 10:42:27 AM
+    Author     : Admin
+*/
+input[type=text] {
+    padding: 6px 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+input[type=radio] {
+    border: 0px;
+    width: 21%;
+    height: 1.3em;
+}
+
+input[type=radio]:checked {
+    border: 0px;
+    width: 21%;
+    height: 1.3em;
+    background-color: rgb(71, 143, 192);
+}
+
+#routeFilter{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px !important;
+    font-size: 16px;
+    margin-right: 36px
+}
+.route-image img{
+    width: 100%;
+    height: 185px;
+    object-fit: cover;
+}
+.route-image {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#routeInfo{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px !important;
+    font-size: 16px;
+}
+
+.route-content {
+    padding: 6px 15px;
+}
+
+#route-button {
+    text-decoration: none;
+    border-top-right-radius: 10px;
+    color: white;
+    background-color:rgb(71, 143, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 100%;
+    padding: 80px 0;
+}
+
+#route-button:hover{
+    opacity: 0.7
+}
+
+.route {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 20px 20px 0 !important;
+    width: 100%;
+}
+
+.route:hover {
+    box-shadow: 5px 7px 7px 0 #e6e6e6, 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 20px 20px 0 !important;
+    width: 100%;
+}
+
+.routeTicket-button{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    text-decoration: none;
+    background: rgb(255, 199, 0);
+    color: rgb(72, 72, 72);
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 12px;
+}
+
+.routeTicket-button:hover{
+    position: absolute;
+    bottom: 8px;
+    text-decoration: none;
+    background: rgb(255, 199, 0);
+    color: rgb(72, 72, 72);
+    font-weight: 800;
+    border-radius: 2px;
+    border: none;
+    padding: 8px 12px;
+    opacity: 0.8
+}
+
+.result-box{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 0;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    border-radius: 5PX
+}
+.result-box ul{
+    padding: 0;
+    margin: 0
+}
+
+.result-box ul li{
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.result-box ul li:hover{
+    background: rgb(71, 143, 192);
+    color: white
+}
+
+.comments-section {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.comments-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.comment-header {
+    font-size: 14px;
+    color: #555;
+}
+
+.comment-author{
+    position: absolute;
+    top: -22.5px;
+    display: flex;
+}
+
+.comment-author p {
+    font-size: 15px;
+    margin: 0;
+    margin-left: 5px
+}
+
+.comment-author img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-date {
+    font-style: italic;
+}
+
+.comment-info{
+    display: flex
+}
+
+.comment-body {
+    font-size: 16px;
+    color: #333;
+}
+
+.comment-body p {
+    margin: -15px 50px 15px 50px;
+}
