@@ -1,0 +1,15 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 6, 2024, 12:52:04 PM
+    Author     : Admin
+*/
+
+#toast-container > .toast {
+    top: 80px;
+    right: 0.5%;
+    left:  auto;
+    position: fixed;
+}

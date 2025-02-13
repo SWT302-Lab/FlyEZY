@@ -1,0 +1,89 @@
+:root {
+    --flyezyMainColor: rgb(60, 110, 87);
+}
+input {
+    padding: 2px
+}
+#info {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#info-banner {
+    background-image: url(../img/flyezy-bg.png);
+    position: relative;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+
+#info-avatar {
+
+    margin-left: 50px;
+    padding-top: 110px;
+}
+
+#info-avatar img {
+    display: block;
+    border-radius: 50%;
+    border: 9px solid white;
+    position: relative;
+    z-index: 10;
+    object-fit: cover;
+}
+
+#info-avatar p {
+    margin-top: 145px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+#info-in4 {
+    margin-top: 100px;
+    padding: 0;
+}
+
+.info-in4-1 {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px !important;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+
+.info-in4-1 button, #update-form button {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 6px;
+    border-color: white;
+    margin-right: 18px;
+    color: white;
+}
+
+.info-in4-1 button:hover {
+    opacity: 0.8;
+}
+
+#info-update {
+    background-color: #04aa6d;
+}
+
+#info-home {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #f44336;
+}
+
+#update-form{
+    margin: 100px;
+    margin-bottom: 62px
+}
+
+#update-form input{
+    margin-bottom: 15px
+}
+
+
+
+

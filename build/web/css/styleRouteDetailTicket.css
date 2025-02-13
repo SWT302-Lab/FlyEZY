@@ -1,0 +1,84 @@
+:root {
+    --tripoveMainColor: rgb(71, 143, 192);
+}
+
+.box{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 100px;
+    padding: 50px
+}
+
+.bar{
+    display: flex;
+    margin: 20px 0;
+}
+
+.item{
+    color: var(--tripoveMainColor);
+    background-color: white ;
+    margin: 0px 10px;
+    padding: 10px 12px;
+    border-radius: 15px;
+    border: 1px solid var(--tripoveMainColor);
+    text-decoration: none;
+}
+
+.selected-item{
+    color: white;
+    background-color: var(--tripoveMainColor);
+    margin: 0px 10px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: white;
+    background-color: var(--tripoveMainColor);
+    margin: 0px 10px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    text-decoration: none;
+}
+
+.selected-item:hover{
+    color: white;
+    background-color: var(--tripoveMainColor);
+    margin: 0px 10px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    text-decoration: none;
+}
+
+.route-detail{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0px 20px 20px 0px !important;
+    width: 100%
+}
+
+.selected .icon-selected {
+    fill: green;
+}
+.selected .icon-disabled {
+    fill: transparent;
+}
+
+.selected rect{
+    fill: rgb(139, 229, 176);
+    stroke: green;
+}
+
+.seat-container.selected {
+    border-color: green;
+}
+.seat-container {
+    cursor: pointer;
+}
+
+
+

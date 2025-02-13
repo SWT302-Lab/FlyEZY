@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 19, 2024, 1:51:26 PM
+    Author     : Admin
+*/
+
+:root {
+    --flyezyMainColor: rgb(60, 110, 87);
+  }
+#sidebar {
+    width: 210px; 
+    height: 100vh; 
+    background-color: #f8f9fa; 
+    margin-top: 74px;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
+    z-index: 8
+}
+
+#main-content {
+    margin:12vh 0vw 15vh 16vw;
+}
+
+#sidebar h2 {
+    font-size: 1.5em; 
+    margin-bottom: 20px; 
+    color: #333; 
+}
+
+#sidebar ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: var(--flyezyMainColor);
+    font-size: 15px; 
+    font-weight: 600;
+    display: block; 
+    padding: 20px 20px;
+    transition: background-color 0.3s ease; 
+}
+
+#sidebar ul li a:hover, .current-page{
+    background-color: var(--flyezyMainColor);
+    color: white !important
+}
