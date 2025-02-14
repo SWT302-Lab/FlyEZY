@@ -19,7 +19,8 @@ import model.Accounts;
  */
 public class AccountsDAO extends DBConnect {
 
-    private final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    private static final String CHARACTERS = 
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
     public List<Accounts> getAllAccountsWithPaging(int index) {
         List<Accounts> ls = new ArrayList<>();
