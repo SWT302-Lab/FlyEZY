@@ -27,7 +27,7 @@ import model.Accounts;
  */
 public class AirlineStaffFilter implements Filter {
 
-    private static final boolean debug = true;
+    private static final boolean DEBUG = true;
 
     // The filter configuration object we are associated with.  If
     // this value is null, this filter instance is not currently
@@ -39,7 +39,7 @@ public class AirlineStaffFilter implements Filter {
 
     private void doBeforeProcessing(ServletRequest request, ServletResponse response)
 	throws IOException, ServletException {
-	if (debug) log("AirlineStaffFilter:DoBeforeProcessing");
+	if (DEBUG) log("AirlineStaffFilter:DoBeforeProcessing");
 
 	// Write code here to process the request and/or response before
 	// the rest of the filter chain is invoked.
@@ -66,7 +66,7 @@ public class AirlineStaffFilter implements Filter {
 
     private void doAfterProcessing(ServletRequest request, ServletResponse response)
 	throws IOException, ServletException {
-	if (debug) log("AirlineStaffFilter:DoAfterProcessing");
+	if (DEBUG) log("AirlineStaffFilter:DoAfterProcessing");
 
 	// Write code here to process the request and/or response after
 	// the rest of the filter chain is invoked.
@@ -102,7 +102,7 @@ public class AirlineStaffFilter implements Filter {
                          FilterChain chain)
 	throws IOException, ServletException {
 
-	if (debug) log("AirlineStaffFilter:doFilter()");
+	if (DEBUG) log("AirlineStaffFilter:doFilter()");
 
 	doBeforeProcessing(request, response);
 	
@@ -172,7 +172,7 @@ public class AirlineStaffFilter implements Filter {
     public void init(FilterConfig filterConfig) { 
 	this.filterConfig = filterConfig;
 	if (filterConfig != null) {
-	    if (debug) { 
+	    if (DEBUG) { 
 		log("AirlineStaffFilter:Initializing filter");
 	    }
 	}
