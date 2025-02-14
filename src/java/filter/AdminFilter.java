@@ -155,10 +155,8 @@ public class AdminFilter implements Filter {
      */
     public void init(FilterConfig filterConfig) {
         this.filterConfig = filterConfig;
-        if (filterConfig != null) {
-            if (debug) {
-                log("AdminFilter:Initializing filter");
-            }
+        if (filterConfig != null && debug ) {
+            log("AdminFilter:Initializing filter");
         }
     }
 
