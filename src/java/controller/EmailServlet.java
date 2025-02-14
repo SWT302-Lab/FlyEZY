@@ -39,10 +39,10 @@ public class EmailServlet {
     final String from = "flyezy.work@gmail.com";
     //pass flyezySWP2024
     final String passWord = "ylis mjup krwy nrck";
-
+    Random rand = new Random();
     public String generateOTP(int length) {
         StringBuilder otp = new StringBuilder();
-        Random rand = new Random();
+        
         for (int i = 0; i < length; i++) {
             otp.append(rand.nextInt(10)); // Thêm số ngẫu nhiên từ 0 đến 9
         }
