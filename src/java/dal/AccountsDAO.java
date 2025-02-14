@@ -46,7 +46,14 @@ public class AccountsDAO extends DBConnect {
 
     public List<Accounts> getAllAccounts() {
         List<Accounts> ls = new ArrayList<>();
-        String sql = "Select * from Accounts";
+        // Before: 
+        // String sql = "SELECT * FROM Accounts";
+        
+        // After
+        String sql = "SELECT id, name, email, "
+                + "password, phoneNumber, address, "
+                + "image, dob, Rolesid, Airlineid, "
+                + "created_at, updated_at, Status_id FROM Accounts";
         try {
             PreparedStatement ps = conn.prepareStatement(sql);
             ResultSet rs = ps.executeQuery();
