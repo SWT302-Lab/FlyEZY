@@ -42,6 +42,7 @@ public class TicketBookingFilter implements Filter {
     private void doBeforeProcessing(ServletRequest request, ServletResponse response)
 	throws IOException, ServletException {
 	if (debug) log("TicketBookingFilter:DoBeforeProcessing");
+        throw new UnsupportedOperationException("doBeforeProcessing cannot be performed");
 
 	// Write code here to process the request and/or response before
 	// the rest of the filter chain is invoked.
